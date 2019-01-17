@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+</head>
+<style>
+    /*Removing default margins and paddings*/
+ *{
+    margin: 0;
+    padding: 0;
+    }
+
+/*setting default body properties e.g fonts,color e.t.c */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4, .bio-pTag{
+    text-align: center;
+}
+
+/*nav properties modification*/
+nav{
+    color: #fff;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100vw;
+    background-color: #333;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.menu h1{
+    text-align-last: center;
+    padding: 10px;
+}
+
+/* css for creating cards for member profiles */
+.card {
+  width: 80%;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+/* css for creating a 2-column div */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* css for wrapping all the divs */
+.wrapper {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 960px; 
+}
+
+/* footer code goes here*/
+footer{
+    color: #fff;
+    text-align: center;
+    height: 200px;
+    width: 100vw;
+    background: #333;
+    margin-top: 30px;
+}
+footer h3,p,a{
+    text-decoration: none;
+}
+</style>
+<body>
+    <!-- NAVIGATION BAR GOES HERE-->
+    <nav>
+        <div class="menu">
+            <h1>PORTFOLIO for Group 6IX members...</h1>
+        </div>
+        
+    </nav>
+    <!-- NAVIGATION BAR ENDS HERE-->
+
+    <!-- LANDING-PAGE-AREA-STARTS-here! -->
+        <div class="wrapper">
+            <!-- TWO COLUMN-DIV -->
+            <div class="row">
+                <div class="column">
+                    <!-- CARD DIV ENDS -->
+                    <div class="card">
+                        <img src="img/abdools_avatar.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Abdulkadir Adam</b></h4>
+                            <p class="bio-pTag">I'm a Front-end developer with a passion for learning new things daily. whenever i'm not coding I engage in reading books on science, religion, philosophy,sociology and psychology. Oh before i forget about an important information, there's need for you to know I eat a lot! like the the six deadly sin type of eat!</p>
+                        </div>
+                    </div>
+                    <!-- CARD DIV ENDS HERE-->
+                </div>
+                <!---->
+                <div class="column">
+                    <!-- CARD DIV-->
+                    <div class="card">
+                        <img src="img/alemsbaja_avatar.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Alemoh Rapheal Baja</b></h4>
+                            <p class="bio-pTag">
+                            I am a developer. I love football, reading, travelling, programming etc. Am the food type too like my freind Abdul.</p>
+                        </div>
+                    </div>
+                    <!-- CARD DIV ENDS HERE-->
+                </div>
+            </div>
+            <!--TWO COLUMN-DIVS ENDS HERE-->
+        </div>
+    <!-- LANDING-PAGE-AREA-ENDS-here! -->
+
+    <!-- FOOTER-STARTS -->
+    <footer>
+        <div class="row">
+            <div class="column">
+                <a href="#">facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Github</a>
+            </div>
+            <div class="column">
+                <h3>Paritie-bootcamp-project</h3>
+                <p>...Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, dolores animi quis tempora earum veniam recusandae et in cupiditate iure vel quo aspernatur voluptate temporibus perferendis quae quisquam cumque dolor!</p>
+                <p>&circledcirc; 2019</p>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER-ENDS -->
+</body>
+</html>
