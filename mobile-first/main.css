@@ -77,6 +77,13 @@ footer h3,p,a{
     text-decoration: none;
 }
 
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: seagreen;
+}
+
 /*----------
 MEDIA QUERIES
 ------------*/
